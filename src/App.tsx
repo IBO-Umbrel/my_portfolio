@@ -39,6 +39,7 @@ const navItems: NavItem[] = [
   { id: "home", label: "home" },
   { id: "works", label: "works" },
   { id: "about", label: "about-me" },
+  { id: "donations", label: "donations" },
   { id: "contacts", label: "contacts" }
 ];
 
@@ -151,7 +152,7 @@ export default function App() {
       <header className="main-header">
         <a href="#home" className="brand">
           <BrandMark />
-          Ibrohimjon
+          IBO Umbrel
         </a>
         <nav>
           {navItems.map((item, index) => (
@@ -160,9 +161,9 @@ export default function App() {
               {item.label}
             </a>
           ))}
-          <button className="lang" type="button" aria-label="Language switcher">
+          {/* <button className="lang" type="button" aria-label="Language switcher">
             EN
-          </button>
+          </button> */}
         </nav>
       </header>
 
@@ -170,7 +171,7 @@ export default function App() {
         <section className="hero-section">
           <div className="hero-copy">
             <h1>
-              Ibrohimjon Toshtemirov is a <em>Full-Stack Developer</em> focused on <em>real-world product engineering</em>
+              IBO Umbrel is a <em>Full-Stack Developer</em> focused on <em>real-world product engineering</em>
             </h1>
             <p>
               4 years building web, mobile, backend, browser extension, and Telegram automation products with strong
@@ -184,7 +185,7 @@ export default function App() {
           <div className="hero-art">
             <div className="hero-decor hero-decor-frame" aria-hidden />
             <div className="hero-decor hero-decor-dots" aria-hidden />
-            <img src={heroPortrait} alt="Ibrohimjon Toshtemirov portrait" />
+            <img src={heroPortrait} alt="IBO Umbrel portrait" />
             <BrandMark />
             <div className="status-box">
               <span />
@@ -197,7 +198,7 @@ export default function App() {
 
         <section className="quote" aria-label="quote">
           <p>Fullstack Developer trying to have fun ☺️</p>
-          <small>- Ibrohimjon Toshtemirov</small>
+          <small>- IBO Umbrel</small>
         </section>
 
         <section id="works" className="projects-section">
@@ -280,7 +281,7 @@ export default function App() {
           <div className="about-layout">
             <div>
               <p>
-                I&apos;m Ibrohimjon Toshtemirov, a Software Engineering student and product-oriented Full-Stack
+                I&apos;m IBO Umbrel, a Software Engineering student and product-oriented Full-Stack
                 Developer. I specialize in Node.js, Express.js, React.js, React Native, and Expo.
               </p>
               <p>
@@ -297,8 +298,25 @@ export default function App() {
               </a>
             </div>
             <div className="about-image-wrap">
-              <img src={aboutPortrait} alt="Ibrohimjon Toshtemirov" />
+              <img src={aboutPortrait} alt="IBO Umbrel" />
             </div>
+          </div>
+        </section>
+
+        <section id="donations" className="donations-section">
+          <HashTitle text="donations" />
+          <div className="donations-layout">
+            <p>
+              If my open work, bots, and tools help you, you can support future development through Patreon.
+            </p>
+            <a
+              href="https://www.patreon.com/c/IBO_Umbrel"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Support on Patreon
+            </a>
           </div>
         </section>
 
@@ -332,7 +350,7 @@ export default function App() {
           <div>
             <a href="#home" className="brand">
               <BrandMark />
-              Ibrohimjon
+              IBO Umbrel
             </a>
             <p>Full-Stack Developer | Node.js Developer | React Developer | React Native Developer</p>
           </div>
@@ -351,7 +369,7 @@ export default function App() {
             </div>
           </div>
         </div>
-        <small>© 2026 Ibrohimjon Toshtemirov</small>
+        <small>© 2026 IBO Umbrel</small>
       </footer>
     </div>
   );

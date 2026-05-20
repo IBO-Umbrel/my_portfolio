@@ -278,6 +278,7 @@ a {
 .projects-section,
 .skills-section,
 .about-section,
+.donations-section,
 .contacts-section {
   margin-top: 112px;
 }
@@ -508,6 +509,23 @@ a {
   margin: 0;
 }
 
+.donations-layout {
+  margin-top: 48px;
+  border: 1px solid var(--border);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.donations-layout p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 620px;
+  line-height: 1.6;
+}
+
 .message-box {
   border: 1px solid var(--border);
   padding: 16px;
@@ -645,6 +663,11 @@ a {
 
   .contacts-layout {
     flex-direction: column;
+  }
+
+  .donations-layout {
+    flex-direction: column;
+    align-items: start;
   }
 
   .skills-grid {
