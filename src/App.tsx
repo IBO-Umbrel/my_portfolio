@@ -39,7 +39,7 @@ const navItems: NavItem[] = [
   { id: "home", label: "home" },
   { id: "works", label: "works" },
   { id: "about", label: "about-me" },
-  { id: "donations", label: "donations" },
+  // { id: "donations", label: "donations" },
   { id: "contacts", label: "contacts" }
 ];
 
@@ -303,7 +303,7 @@ export default function App() {
           </div>
         </section>
 
-        <section id="donations" className="donations-section">
+        {/* <section id="donations" className="donations-section">
           <HashTitle text="donations" />
           <div className="donations-layout">
             <p>
@@ -318,7 +318,7 @@ export default function App() {
               Support on Patreon
             </a>
           </div>
-        </section>
+        </section> */}
 
         <section id="contacts" className="contacts-section">
           <HashTitle text="contacts" />
