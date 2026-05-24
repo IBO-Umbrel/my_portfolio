@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
-import heroPortrait from "./assets/hero-portrait.png";
-import aboutPortrait from "./assets/about-portrait.png";
+import heroPortrait from "./assets/me1.png";
+import aboutPortrait from "./assets/me2.png";
 import projectActualUnits from "./assets/actual_units.png";
 import projectUleveling from "./assets/uleveling.png";
 import projectAniblossom from "./assets/aniblossom.png";
@@ -152,7 +152,7 @@ export default function App() {
       <header className="main-header">
         <a href="#home" className="brand">
           <BrandMark />
-          IBO Umbrel
+          Ibrohimjon
         </a>
         <nav>
           {navItems.map((item, index) => (
@@ -171,7 +171,7 @@ export default function App() {
         <section className="hero-section">
           <div className="hero-copy">
             <h1>
-              IBO Umbrel is a <em>Full-Stack Developer</em> focused on <em>real-world product engineering</em>
+              Ibrohimjon is a <em>Full-Stack Developer</em> focused on <em>real-world product engineering</em>
             </h1>
             <p>
               4 years building web, mobile, backend, browser extension, and Telegram automation products with strong
@@ -185,12 +185,12 @@ export default function App() {
           <div className="hero-art">
             <div className="hero-decor hero-decor-frame" aria-hidden />
             <div className="hero-decor hero-decor-dots" aria-hidden />
-            <img src={heroPortrait} alt="IBO Umbrel portrait" />
+            <img src={heroPortrait} alt="Ibrohimjon portrait" />
             <BrandMark />
             <div className="status-box">
               <span />
               <p>
-                Currently working on <strong>Portfolio</strong>
+                Currently working as <strong>Freelancer</strong>
               </p>
             </div>
           </div>
@@ -198,7 +198,7 @@ export default function App() {
 
         <section className="quote" aria-label="quote">
           <p>Fullstack Developer trying to have fun ☺️</p>
-          <small>- IBO Umbrel</small>
+          <small>- Ibrohimjon</small>
         </section>
 
         <section id="works" className="projects-section">
@@ -281,7 +281,7 @@ export default function App() {
           <div className="about-layout">
             <div>
               <p>
-                I&apos;m IBO Umbrel, a Software Engineering student and product-oriented Full-Stack
+                I&apos;m Ibrohimjon, a Software Engineering student and product-oriented Full-Stack
                 Developer. I specialize in Node.js, Express.js, React.js, React Native, and Expo.
               </p>
               <p>
@@ -298,7 +298,7 @@ export default function App() {
               </a>
             </div>
             <div className="about-image-wrap">
-              <img src={aboutPortrait} alt="IBO Umbrel" />
+              <img src={aboutPortrait} alt="Ibrohimjon" />
             </div>
           </div>
         </section>
@@ -350,7 +350,7 @@ export default function App() {
           <div>
             <a href="#home" className="brand">
               <BrandMark />
-              IBO Umbrel
+              Ibrohimjon
             </a>
             <p>Full-Stack Developer | Node.js Developer | React Developer | React Native Developer</p>
           </div>
@@ -369,7 +369,7 @@ export default function App() {
             </div>
           </div>
         </div>
-        <small>© 2026 IBO Umbrel</small>
+        <small>© 2026 Ibrohimjon</small>
       </footer>
     </div>
   );
