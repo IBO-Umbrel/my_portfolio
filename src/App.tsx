@@ -273,7 +273,7 @@ export default function App() {
                             and the <em>Founder</em> of <em><a href="https://umbrella.com.uz" target="_blank" rel="noreferrer">Umbrella Labs</a></em>.
                         </h1>
                         <p>
-                            4 years building web, mobile, backend, browser
+                            2 years building web, mobile, backend, browser
                             extension, and Telegram automation products with
                             strong focus on modern JavaScript architecture.
                         </p>
