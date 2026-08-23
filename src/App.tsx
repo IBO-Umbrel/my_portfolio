@@ -227,7 +227,7 @@ export default function App() {
                     />
                 </a>
                 <a
-                    href="https://discord.com/users/nonameraid"
+                    href="https://discord.com/users/nonamecrafts"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Discord"
@@ -522,7 +522,7 @@ export default function App() {
                                 github.com/IBO-Umbrel
                             </a>
                             <a
-                                href="https://discord.com/users/nonameraid"
+                                href="https://discord.com/users/nonamecrafts"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -576,7 +576,7 @@ export default function App() {
                                 />
                             </a>
                             <a
-                                href="https://discord.com/users/nonameraid"
+                                href="https://discord.com/users/nonamecrafts"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="Discord"
