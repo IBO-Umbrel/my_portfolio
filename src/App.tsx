@@ -215,7 +215,7 @@ export default function App() {
                     />
                 </a>
                 <a
-                    href="https://t.me/ibo_umbrella"
+                    href="https://t.me/IboUmbrel"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Telegram"
@@ -508,11 +508,11 @@ export default function App() {
                                 ibo.umbrella@gmail.com
                             </a>
                             <a
-                                href="https://t.me/ibo_umbrella"
+                                href="https://t.me/IboUmbrel"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                t.me/ibo_umbrella
+                                t.me/IboUmbrel
                             </a>
                             <a
                                 href="https://github.com/IBO-Umbrel"
@@ -564,7 +564,7 @@ export default function App() {
                                 />
                             </a>
                             <a
-                                href="https://t.me/ibo_umbrella"
+                                href="https://t.me/IboUmbrel"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="Telegram"
