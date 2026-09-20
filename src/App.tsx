@@ -504,8 +504,8 @@ export default function App() {
                         <div className="message-box">
                             <h3>Message me here</h3>
                             <a href="tel:+998951309955">+998 95 130 99 55</a>
-                            <a href="mailto:ibo.umbrella@gmail.com">
-                                ibo.umbrella@gmail.com
+                            <a href="mailto:ibo.umbrel@proton.me">
+                                ibo.umbrel@proton.me
                             </a>
                             <a
                                 href="https://t.me/IboUmbrel"
@@ -526,7 +526,7 @@ export default function App() {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                discord.com/users/nonameraid (@nonameraid)
+                                discord.com/users/nonamecrafts (@nonamecrafts)
                             </a>
                         </div>
                     </div>
